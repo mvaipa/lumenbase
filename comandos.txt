@@ -1,0 +1,9 @@
+// Criar Projeto
+composer create-project --prefer-dist laravel/lumen lumen-vuejs-
+
+// Criar tabela de Migrations
+./artisan migrate
+
+// Criar o Migrate
+./artisan make:migration create_table_users --create tbl_users
+php artisan migrate
